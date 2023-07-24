@@ -7,15 +7,17 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { AtricleListComponent } from './atricle-list/atricle-list.component';
 import { AboutComponent } from './about/about.component';
+import { ArticleComponent } from './article/article.component';
 
 @NgModule({
-  declarations: [
+  declarations: [	
     AppComponent,
     NavBarComponent,
     FooterComponent,
     AtricleListComponent,
-    AboutComponent
-  ],
+    AboutComponent,
+      ArticleComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule
